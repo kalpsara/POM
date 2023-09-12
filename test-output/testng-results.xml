@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="13" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-10T00:16:52 IST" name="Suite" finished-at="2023-09-10T00:17:41 IST" duration-ms="48587">
+    <groups>
+    </groups>
+    <test started-at="2023-09-10T00:16:52 IST" name="Test" finished-at="2023-09-10T00:17:41 IST" duration-ms="48587">
+      <class name="week8.day1.assignments.testcases.MergeLeadTC">
+        <test-method is-config="true" signature="preCondition(java.lang.String)[pri:0, instance:week8.day1.assignments.testcases.MergeLeadTC@449a4f23]" started-at="2023-09-10T00:16:52 IST" name="preCondition" finished-at="2023-09-10T00:16:59 IST" duration-ms="7081" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="runMergeLead()[pri:0, instance:week8.day1.assignments.testcases.MergeLeadTC@449a4f23]" started-at="2023-09-10T00:16:59 IST" name="runMergeLead" finished-at="2023-09-10T00:17:15 IST" duration-ms="15705" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runMergeLead -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:week8.day1.assignments.testcases.MergeLeadTC@449a4f23]" started-at="2023-09-10T00:17:15 IST" name="postCondition" finished-at="2023-09-10T00:17:15 IST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- week8.day1.assignments.testcases.MergeLeadTC -->
+      <class name="week8.day1.assignments.testcases.EditLeadTC">
+        <test-method is-config="true" signature="preCondition(java.lang.String)[pri:0, instance:week8.day1.assignments.testcases.EditLeadTC@1530c739]" started-at="2023-09-10T00:16:54 IST" name="preCondition" finished-at="2023-09-10T00:16:59 IST" duration-ms="5453" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="runEdit([Ljava.lang.String;)[pri:0, instance:week8.day1.assignments.testcases.EditLeadTC@1530c739]" started-at="2023-09-10T00:16:59 IST" name="runEdit" data-provider="dataProvider" finished-at="2023-09-10T00:17:19 IST" duration-ms="19827" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@71687585]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runEdit -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:week8.day1.assignments.testcases.EditLeadTC@1530c739]" started-at="2023-09-10T00:17:19 IST" name="postCondition" finished-at="2023-09-10T00:17:19 IST" duration-ms="171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="preCondition(java.lang.String)[pri:0, instance:week8.day1.assignments.testcases.EditLeadTC@1530c739]" started-at="2023-09-10T00:17:19 IST" name="preCondition" finished-at="2023-09-10T00:17:22 IST" duration-ms="2635" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="runEdit([Ljava.lang.String;)[pri:0, instance:week8.day1.assignments.testcases.EditLeadTC@1530c739]" started-at="2023-09-10T00:17:22 IST" name="runEdit" data-provider="dataProvider" finished-at="2023-09-10T00:17:41 IST" duration-ms="18608" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@5276d6ee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runEdit -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:week8.day1.assignments.testcases.EditLeadTC@1530c739]" started-at="2023-09-10T00:17:41 IST" name="postCondition" finished-at="2023-09-10T00:17:41 IST" duration-ms="213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- week8.day1.assignments.testcases.EditLeadTC -->
+      <class name="week8.day1.assignments.testcases.DeleteLeadTC">
+        <test-method is-config="true" signature="preCondition(java.lang.String)[pri:0, instance:week8.day1.assignments.testcases.DeleteLeadTC@5b1669c0]" started-at="2023-09-10T00:16:52 IST" name="preCondition" finished-at="2023-09-10T00:16:59 IST" duration-ms="7070" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="runDeleteLead()[pri:0, instance:week8.day1.assignments.testcases.DeleteLeadTC@5b1669c0]" started-at="2023-09-10T00:16:59 IST" name="runDeleteLead" finished-at="2023-09-10T00:17:18 IST" duration-ms="18417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runDeleteLead -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:week8.day1.assignments.testcases.DeleteLeadTC@5b1669c0]" started-at="2023-09-10T00:17:18 IST" name="postCondition" finished-at="2023-09-10T00:17:18 IST" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- week8.day1.assignments.testcases.DeleteLeadTC -->
+      <class name="week8.day1.assignments.testcases.DuplicateLeadTC">
+        <test-method is-config="true" signature="preCondition(java.lang.String)[pri:0, instance:week8.day1.assignments.testcases.DuplicateLeadTC@78e4deb0]" started-at="2023-09-10T00:17:06 IST" name="preCondition" finished-at="2023-09-10T00:17:10 IST" duration-ms="4674" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="runDuplicateLead()[pri:0, instance:week8.day1.assignments.testcases.DuplicateLeadTC@78e4deb0]" started-at="2023-09-10T00:17:10 IST" name="runDuplicateLead" finished-at="2023-09-10T00:17:32 IST" duration-ms="21711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runDuplicateLead -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:week8.day1.assignments.testcases.DuplicateLeadTC@78e4deb0]" started-at="2023-09-10T00:17:32 IST" name="postCondition" finished-at="2023-09-10T00:17:32 IST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- week8.day1.assignments.testcases.DuplicateLeadTC -->
+      <class name="week8.day1.assignments.testcases.CreateLeadTC">
+        <test-method is-config="true" signature="preCondition(java.lang.String)[pri:0, instance:week8.day1.assignments.testcases.CreateLeadTC@53fe15ff]" started-at="2023-09-10T00:16:54 IST" name="preCondition" finished-at="2023-09-10T00:16:59 IST" duration-ms="5478" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="runCreateLead([Ljava.lang.String;)[pri:0, instance:week8.day1.assignments.testcases.CreateLeadTC@53fe15ff]" started-at="2023-09-10T00:16:59 IST" name="runCreateLead" data-provider="dataProvider" finished-at="2023-09-10T00:17:22 IST" duration-ms="22209" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@1807f5a7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreateLead -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:week8.day1.assignments.testcases.CreateLeadTC@53fe15ff]" started-at="2023-09-10T00:17:22 IST" name="postCondition" finished-at="2023-09-10T00:17:22 IST" duration-ms="346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="preCondition(java.lang.String)[pri:0, instance:week8.day1.assignments.testcases.CreateLeadTC@53fe15ff]" started-at="2023-09-10T00:17:22 IST" name="preCondition" finished-at="2023-09-10T00:17:25 IST" duration-ms="3406" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="runCreateLead([Ljava.lang.String;)[pri:0, instance:week8.day1.assignments.testcases.CreateLeadTC@53fe15ff]" started-at="2023-09-10T00:17:25 IST" name="runCreateLead" data-provider="dataProvider" finished-at="2023-09-10T00:17:37 IST" duration-ms="11869" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@1b919693]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runCreateLead -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:week8.day1.assignments.testcases.CreateLeadTC@53fe15ff]" started-at="2023-09-10T00:17:37 IST" name="postCondition" finished-at="2023-09-10T00:17:37 IST" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- week8.day1.assignments.testcases.CreateLeadTC -->
+      <class name="week8.day1.assignments.testcases.LoginTC">
+        <test-method is-config="true" signature="setFileName()[pri:0, instance:week8.day1.assignments.testcases.LoginTC@298a5e20]" started-at="2023-09-10T00:16:52 IST" name="setFileName" finished-at="2023-09-10T00:16:52 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setFileName -->
+        <test-method is-config="true" signature="preCondition(java.lang.String)[pri:0, instance:week8.day1.assignments.testcases.LoginTC@298a5e20]" started-at="2023-09-10T00:16:52 IST" name="preCondition" finished-at="2023-09-10T00:16:59 IST" duration-ms="7070" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://leaftaps.com/opentaps/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="runLogin()[pri:0, instance:week8.day1.assignments.testcases.LoginTC@298a5e20]" started-at="2023-09-10T00:16:59 IST" name="runLogin" finished-at="2023-09-10T00:17:05 IST" duration-ms="5920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runLogin -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:week8.day1.assignments.testcases.LoginTC@298a5e20]" started-at="2023-09-10T00:17:05 IST" name="postCondition" finished-at="2023-09-10T00:17:06 IST" duration-ms="469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+      </class> <!-- week8.day1.assignments.testcases.LoginTC -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
